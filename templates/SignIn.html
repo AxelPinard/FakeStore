@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>FakeStore</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="{% static 'images/Envision.css'%}" type="text/css" />
+</head>
+<body>
+    <div id="wrap">
+
+        <div id="header">
+            <h1 id="logo-text">FakeStore</h1>
+            <h2 id="slogan">Money is an illusion...</h2>
+        </div>
+
+        <div id="content-wrap">
+
+            <h1>Wise Words</h1>
+            <div class="left-box">
+                <p>&quot;tryna turn a dime into a dolla'.&quot; -Father in law </p>
+            </div>
+
+            <div>
+                <h1>Type in a Username to sign in</h1>
+
+                <form method="POST" action="CheckSignIn/">
+                    {%csrf_token%}
+                    <textarea name="username"></textarea><br />
+                    <input type="submit" />
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

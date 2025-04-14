@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>FakeStore</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="{% static 'images/Envision.css'%}" type="text/css" />
+</head>
+<body>
+    <div id="wrap">
+
+        <div id="header">
+            <h1 id="logo-text">FakeStore</h1>
+            <h2 id="slogan">Money is an illusion...</h2>
+        </div>
+
+        <div id="content-wrap">
+
+            <h1>Wise Words</h1>
+            <div class="left-box">
+                <p>&quot;Money is a good motivator.&quot; -Axel Pinard </p>
+                <p>&quot;Money is the only motivator.&quot; -Johnathan "Get that money" Baarsh </p>
+            </div>
+
+            <div>
+                <h1>{{Person.UserName}} has {{Person.money}} doll hairs</h1>
+            </div>
+
+            <div>
+                <h1>Deposit money then buy a picture :) </h1>
+            </div>
+
+            <div class="image-column">
+                <img src="{% static 'images\Brothers.jpg'%}" width="200" height="100" alt="Alternate Text" />
+                <p>$5</p>
+                <img src="{% static 'images\Cat.gif'%}" width="200" height="100" alt="Alternate Text" />
+                <p>$7</p>
+                <img src="{% static 'images\LISTENHEREjpg.jpg'%}" width="200" height="100" alt="Alternate Text" />
+                <p>$4</p>
+                <img src="{% static 'images\SpongebobYEEESS.gif'%}" width="200" height="100" alt="Alternate Text" />
+                <p>$6</p>
+            </div>
+            
+            <div>
+                <h2>Select an option</h2>
+                <a href="DepositMoney/">1. Deposit Money</a><br />
+                <a href="Buy2/">2. Buy Brothers.jpeg</a><br />
+                <a href="Buy3/">3. Buy Cat.gif</a><br />
+                <a href="Buy4/">4. Buy LISTENHERE.jpeg</a><br />
+                <a href="Buy5/">5. Buy SpongeBobYEESS.gif</a><br />
+                <a href="ViewPurchases/">6. ViewPurchases</a><br />
+            </div>
+        </div>
+</body>
+</html>
