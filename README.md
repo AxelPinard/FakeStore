@@ -2,10 +2,8 @@
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Apology
 I would like to apologize for the lack of effort in previous README files. I hope that you will find this README more acceptable in terms of effort put in.
-![image](https://github.com/user-attachments/assets/4c6112ce-a719-43f2-8f44-e15a22c2519f)
 
 I do think it is a bit bold to assume the quality of a project you report to not have even attempted to run but regardeless I hope this apology is enough to make up for my insulting previous README
-![image](https://github.com/user-attachments/assets/269d998e-2d41-4f88-9d18-a0d6249407f2)
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------## Summary
 This is a website created in Django (don't worry no tutorial was used in the creation of this project) for a fake store.
 In the store you can Sign up, Sign in, deposit money into your account, buy various pictures, and view the pictures you have purchased.
@@ -32,3 +30,5 @@ DISCLAIMER: All instructions are assuming Windows, if you have a different OS th
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### If you have any suggestions on how to further improve this README please contact me in the Software Design & Construction discord under the username RuricThar.
+![image](https://github.com/user-attachments/assets/4c6112ce-a719-43f2-8f44-e15a22c2519f)
+![image](https://github.com/user-attachments/assets/269d998e-2d41-4f88-9d18-a0d6249407f2)
